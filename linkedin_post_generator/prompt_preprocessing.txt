@@ -1,0 +1,35 @@
+step 1:
+I will give you a text. convert them to json format as per the example below.
+
+Example Text:
+
+Hey, I am going there.
+Do you want to join?
+
+like:
+5
+
+poster:
+Manin Tang
+
+Output Text:
+{
+"text": "Hey, I am going there.\nDo you want to join?"
+"engagement":5,
+"influencer":"Manin Tang"
+}
+
+Now please convert this text
+----------------------------
+<my_text>
+like:
+<my_number>
+
+poster:
+<poster>
+
+___________________________________________
+step 2:
+One more instruction. If there are double quotes inside the text, convert them to a single quote.
+
+Now this text too.  If there are double quotes inside the text, convert them to a single quote.
